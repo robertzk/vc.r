@@ -1,7 +1,7 @@
-#' Grasshopper is an R framework for testing questions about classifiers coming
-#' from learning theory: convergence rate, estimation of empirical risk
-#' minimization potential, etc.
+#' Analogous to Ruby's VCR gem, this R package
+#' provides the ability to record network responses and grab them from the cache
+#' so that tests are not making repetitive network requests.
 #'
-#' @name grasshopper
+#' @name vc.r
 #' @docType package
 NULL

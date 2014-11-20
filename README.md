@@ -1,8 +1,9 @@
-Grasshopper
-===========
+vc.r - A network interception testing / stubbing utility for R packages
+====
 
-Grasshopper is an R framework for testing questions about classifiers
-coming from learning theory: convergence rate, estimation of
-empirical risk minimization potential, etc.
+Analogous to the [VCR gem](https://github.com/vcr/vcr) for Ruby, this R package
+provides the ability to record network responses and grab them from the cache
+so that tests are not making repetitive network requests.
+
 
 
