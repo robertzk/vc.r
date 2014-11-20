@@ -1,0 +1,22 @@
+Package: grasshopper
+Title: Answering questions coming from learning theory (convergence rate,
+    estimation of empirical risk, etc)
+Version: 0.1
+Author: Robert Krzyzanowski <technoguyrob@gmail.com>
+Maintainer: Robert Krzyzanowski <technoguyrob@gmail.com>
+Authors@R: c(person("Robert", "Krzyzanowski",
+    email = "technoguyrob@gmail.com", role = c("aut", "cre")))
+Description: Grasshopper is an R framework for testing questions about
+    classifiers coming from learning theory: convergence rate, estimation of
+    empirical risk minimization potential, etc.
+Depends:
+    R (>= 3.0.1)
+Suggests:
+    pbapply,
+    testthat,
+    testthatsomemore,
+    knitr
+VignetteBuilder: knitr
+License: MIT
+LazyData: true
+Roxygen: list(wrap = FALSE)
