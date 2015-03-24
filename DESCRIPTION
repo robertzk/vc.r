@@ -1,21 +1,23 @@
-Package: vc.r
-Title: A network interception testing / stubbing utility for R packages
-Version: 0.1
+Package: vcr
+Type: Package
+Title: vc.r (http://github.com/robertzk/vc.r)
+Description: A network interception testing / stubbing utility for R packages.
+Version: 0.1.0
 Author: Robert Krzyzanowski <technoguyrob@gmail.com>
 Maintainer: Robert Krzyzanowski <technoguyrob@gmail.com>
 Authors@R: c(person("Robert", "Krzyzanowski",
     email = "technoguyrob@gmail.com", role = c("aut", "cre")))
-Description: Analogous to Ruby's VCR gem, this R package provides the ability
-    to record network responses and grab them from the cache so that tests are
-    not making repetitive network requests.
 Depends:
     R (>= 3.0.1)
-Suggests:
-    pbapply,
-    testthat,
-    testthatsomemore,
-    knitr
-VignetteBuilder: knitr
 License: MIT
 LazyData: true
+Imports:
+    stringr,
+    digest,
+    director
+Suggests:
+    knitr,
+    microbenchmark,
+    testthat,
+    RCurl
 Roxygen: list(wrap = FALSE)
